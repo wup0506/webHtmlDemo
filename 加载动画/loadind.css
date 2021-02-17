@@ -52,7 +52,7 @@ section .loader .dot {
 }
 
 section .loader:last-child .dot {
-    animation-delay: calc(-0.1s*var(--i));
+    animation-delay: calc(-0.1s * var(--i));
 }
 
 @keyframes animateDot {
